@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formulario DVD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <!-- número, título, ator/atriz principal, ator/atriz coadjuvante, diretor/diretora e ano de lançamento. -->
+        <h1>Dados do DVD</h1>
+        
+        <form method="post" action="dvd">
+            
+            <label>Número: </label>
+            <input type="number" name="numero"/>
+            <br><br>
+            <label>Título: </label>
+            <input type="text" name="titulo"/>
+            <br><br>
+            <label>Ator/Atriz principal: </label>
+            <input type="text" name="atorP"/>
+            <br><br>
+            <label>Ator/Atriz coadjuvante: </label>
+            <input type="text" name="atorC"/>
+            <br><br>
+            <label>Diretor/Diretora: </label>
+            <input type="text" name="diretor"/>
+            <br><br>
+            <label>Ano do lançamento: </label>
+            <input type="number" name="ano"/>
+            <br><br>
+            
+            <input type="submit" value="Enviar Dados"/>
+        </form>
+    </body>
+</html>
